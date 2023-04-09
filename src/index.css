@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  min-height: 100vh; 
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.showMenuNav{
+ 
+  background: linear-gradient(to top,#46424D, #812545 )
+}
+.nav{
+  background: linear-gradient(to bottom,#46424D  , #812545  )
+
+}
+.about{
+  
+  min-height: 100vh;
+  background: linear-gradient(to top,#F0B27A ,#812545 );
+}
+
+.señalado {
+  background-color: rgb(204, 146, 168);
+  padding: 5px;
+}
+
+.footer{
+  background: linear-gradient(to bottom,#F0B27A, #46424D )
+}
+
+
+.textProyects{
+  color:gainsboro;
+  text-align: center;
+  
+}
+
+
+
+.social, .picProyects{
+  justify-content: center;
+  color:gainsboro;
+ }
+
+.textMobileMenor{
+  margin-left: 7rem;
+  }
+
+@media screen and (max-width: 900px){
+  .container{
+
+    display: flex;
+    flex-direction: column;
+  }
+  .picMobile{
+    width: 8rem;
+    height: 8rem;
+  }
+  .textMobile{
+    font-size: 1rem;
+   }
+   .textMobileMenor{
+    /* border: 1px solid white; */
+    font-size: 0.8rem;
+    margin-left: 0;
+   }
+   .social{
+    justify-content: center;
+   }
+   .PicProyectsContainer{
+    justify-content: center;
+   }
+   .picProyects{
+   
+   /* border: solid 1px; */
+    width: 70%;
+    justify-content: center;
+   }
+ 
+  
+   
+}
