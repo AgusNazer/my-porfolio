@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+// import React, {useState} from 'react'
 import Slider from './Slider'
-import BotonSeñalar from './GetInTouch'
+// import BotonSeñalar from './GetInTouch'
 import ComponentePadre from './ElementosSeñalados'
 
 
@@ -126,7 +126,7 @@ import ComponentePadre from './ElementosSeñalados'
 
         <section className=''>
             <div className='proyects'/>
-            <a href='https://github.com/AgusNazer' target='_blank'> <p className='text-xl text-gray-300 hover:text-white cursor-pointer'>Some of my proyects</p></a>
+            <a href='https://github.com/AgusNazer' target='_blank' rel='noreferrer'> <p className='text-xl text-gray-300 hover:text-white cursor-pointer'>Some of my proyects</p></a>
              <div>
           <Slider></Slider>
              </div>
